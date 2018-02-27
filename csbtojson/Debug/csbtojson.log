@@ -1,0 +1,18 @@
+﻿Build started 2018/2/27 16:09:22.
+     1>Project "I:\g58\tool\cocos_tool\csbtojson\csbtojson\csbtojson\csbtojson.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\csbtojson.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt csb2json.cpp
+         csb2json.cpp
+     1>i:\g58\tool\cocos_tool\csbtojson\csbtojson\csbtojson\csb2json.cpp(27): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\g58\tool\cocos_tool\csbtojson\csbtojson\Debug\csbtojson.exe" /INCREMENTAL /NOLOGO /LIBPATH:I:\g58\engine\NeoX\managed3rdparty\zlib\lib2 zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\g58\tool\cocos_tool\csbtojson\csbtojson\Debug\csbtojson.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\g58\tool\cocos_tool\csbtojson\csbtojson\Debug\csbtojson.lib" /MACHINE:X86 Debug\CocoLoader.obj
+         Debug\csb2json.obj
+         Debug\csbtojson.obj
+         Debug\stdafx.obj
+         zlib\zlib.lib
+         csbtojson.vcxproj -> I:\g58\tool\cocos_tool\csbtojson\csbtojson\Debug\csbtojson.exe
+     1>Done Building Project "I:\g58\tool\cocos_tool\csbtojson\csbtojson\csbtojson\csbtojson.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
